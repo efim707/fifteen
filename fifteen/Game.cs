@@ -49,7 +49,7 @@ namespace fifteen
         public void Filling(Random gen)
         {
             int[] numbers = new int[Field.Length];
-            for (int i = 0; i < numbers.Length; i++)
+            for (int i = 0; i < numbers.Length; i++) 
             {
                 numbers[i] = gen.Next(0, Field.Length);
                 int y = numbers[i];
